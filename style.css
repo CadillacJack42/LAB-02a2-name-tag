@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+.head-pieces {
+    text-align: center;
+}
+
+#container-paper {
+    background-color: red;
+    height: 400px;
+    width: 600px;
+    color: aliceblue;
+    margin-top: 25px;
+    border-radius: 20px;
+    padding-top: 40px;
+    margin: 40px auto;
+}
+
+#paragraph {
+    position: relative;
+    display: grid;
+    grid-template-rows: 25% 1fr 15%;
+    place-items: center;
+    
+}
+
+#hello {
+    font-size: 100px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+
+.slim-shady {
+    position: absolute;
+    top: 45px;
+    font-size: 60px;
+}
+
+em {
+    text-align: center;
+    font-size: 100px;
+    color: black;
+    position: absolute;
+    top: 121px;
+    height: 136px;
+    width: 600px;
+    background-color: white;
+}
+
